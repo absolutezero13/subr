@@ -1,0 +1,32 @@
+.trainings {
+  font-size: 1.6rem;
+  padding: 8rem 6rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(223, 215, 215);
+}
+
+.training {
+  overflow: hidden;
+  width: 40rem;
+  max-height: 3.5rem;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: rgb(95, 3, 89);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.details {
+  margin-top: 3rem;
+}
+
+.freud {
+  position: absolute;
+  bottom: -23rem;
+
+  width: 8rem;
+  height: 8rem;
+}

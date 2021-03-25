@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media screen and (max-width: 800px) {
+    font-size: 55%;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 45%;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Della Respira", serif;
+  background: radial-gradient(rgba(182, 30, 241, 0.2), rgba(208, 87, 245, 0.2)),
+    url("../../Images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}

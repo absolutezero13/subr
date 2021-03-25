@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+  padding-left: 15rem;
+  color: $text-color;
+
+  &__name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30rem;
+    font-weight: 1000;
+    text-align: center;
+    &__photo {
+      width: 20rem;
+      height: 20rem;
+      border-radius: 50%;
+      box-shadow: 0 0 3px 3px rgb(156, 149, 149);
+    }
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    font-size: 2rem;
+
+    &__nav-list {
+      list-style-type: none;
+      display: flex;
+
+      li {
+        cursor: pointer;
+        font-weight: 1000;
+        margin-right: 3rem;
+        transition: all 0.3s;
+        border-bottom: 2px solid transparent;
+        &:hover {
+          border-bottom: 2px solid $text-color;
+        }
+      }
+    }
+  }
+}
